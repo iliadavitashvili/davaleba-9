@@ -5,14 +5,16 @@
 body{
     margin: 0;
     background: #F7F7F7 0% 0% no-repeat padding-box;
+    line-height: 1.4;
+    
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:15px;
-    padding-right: 30px;
+    padding-left:35px;
+    padding-right: 50px;
 }
 
 .page-logo{
@@ -51,4 +53,59 @@ ul{
 .nav-anchors:hover{
     text-decoration-line: underline;
     text-underline-offset: 5px;
+}
+
+/* main */
+
+
+
+.profile{
+    width: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+   
+}
+.content-wrapper{
+    background-color: #fff;
+    border-radius: 28px;
+    width: 80%;
+    padding:  130px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:150px;
+    align-self: center;
+    
+}
+section:nth-child(1),section:nth-child(2){
+    margin-left:15%;
+    width: 416px;
+    
+    
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:33px;
+}
+
+h1, h2{
+    opacity: 0.7;
+}
+
+section:nth-child(1) >p ,section:nth-child(2) >p{
+    color: #262626;
+    font-size:  23px;
 }
